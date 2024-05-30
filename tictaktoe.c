@@ -25,7 +25,7 @@ void printBoard() {
         printf("\n");
         if (i < SIZE - 1) {
             for (int j = 0; j < SIZE; j++) {
-                printf("---");
+                printf("--");
                 if (j < SIZE - 1) printf("+");
             }
         }
